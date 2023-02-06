@@ -1,0 +1,245 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+/*----------НАШ ПРОКЕТ ----------*/
+body{
+
+background-color:rgb(33, 40, 33);
+
+}
+
+/*--так-!*/
+
+.wraper{
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+overflow: hidden;
+
+}
+
+/*---нащ хеддер-!-*/
+.headerblock{
+
+  opacity: 0.8;
+   display: flex;
+   position: fixed;
+   justify-content: center;
+   margin-top: 1px;
+   
+   
+   padding: 15px;
+   height: 60px;
+   width: 100%;
+
+
+   z-index: 2;
+}
+/*--так так ниже css код для навигации  НАЩ ХЕДДЕР-*/
+
+.top_menu li{
+   display: inline-block;
+   vertical-align: middle;
+   margin-right: 35px;
+   }
+   
+   
+   .top_menu{
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 38px;
+   
+   }
+   .logo{
+      padding-right: 60px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 100px;
+      color:rgb(134, 0, 0);
+      font-weight: 700;
+   }
+   
+   .top_menu a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 22px;
+      color:rgb(104, 206, 73);
+      vertical-align: middle;
+      word-spacing: 10px;
+      transition-duration: 2s;
+   
+   }
+   /*-- при наведении псевдо клас hover-*/
+   .top_menu a:hover{
+      color:rgb(7, 210, 146);
+     text-shadow:2px 3px 1px rgb(10, 209, 193);
+   font-weight: initial;
+   font-size: 25px;
+   
+   }
+
+
+
+
+
+/*block one */
+
+   .blockone{ opacity: 0.7;
+      background:url('https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=611&q=80');
+      min-height: 500px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size:cover;
+      text-align: center;
+    
+   }
+   .blockone p{
+      margin-top: 70px;
+      font-size: 22px;
+      transition-duration: 2s;
+   }
+   .blockone p:hover{
+font-size: 55px;
+   text-shadow: 6px 4px 5px greenyellow ;
+   }
+
+/*audio style*/
+ .audioblock{
+margin-top:160px;
+margin-left: 30px;
+border-radius: 30px;
+box-shadow: 5px 5px 7px 4px red;
+transition-duration: 2s;
+
+}
+
+.audioblock:hover{box-shadow: 1px 1px 1px 1px rgb(120, 68, 68),15px 15px 17px 4px rgb(21, 255, 0);
+   border-radius: 30px;
+}
+
+/*blockdva*/
+.blockdva{
+   background:url("../img/zzzeemll.jpg");
+   min-height: 500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover;
+   transition-duration: 3s;
+   text-align: center;
+}
+
+
+   /*ниже .в етом же блоке текст..*/
+   /*ниже .malo olam texst.style*/
+
+.block2text{
+   text-align: center;
+   padding: 30px;
+   margin-top: 15%;
+   font-size: 30px;
+   display:inline-block;
+   transition-duration: 3s;
+   opacity: 0.9;
+   font-weight: 400;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color:rgb(255, 3, 3);
+}
+/*ниже .при наведении..*/
+.block2text:hover{
+   text-align: center;
+word-spacing: 30px;
+opacity: 0.4;
+font-weight: 700;
+font-size: 90px;
+justify-content:center;
+color:rgb(246, 226, 7);
+text-shadow: 5px 8px 9px  rgb(255, 0, 0),7px 9px 7px green;
+
+}
+
+/*ниже ...*/
+/*ниже паралакс*/
+
+.paralax{
+   opacity: 0.7;
+   background:url('https://images.unsplash.com/photo-1557264322-b44d383a2906?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+   min-height: 500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover;
+color:aliceblue;
+}
+/*ниже <div class="newlow">*/
+.newlow{
+   height:100%;
+    background:url("../img/009b1412-09a9-407c-b8ee-c007f05fcc3c.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+ color:aliceblue;
+ }
+/*ниже ...*/
+/* <div class="texxt">*/
+/*ниже .стили для текста а так же колонки ..*/
+
+.texxt{
+   line-height: 30px;
+   word-spacing: 5px;
+   letter-spacing: 2px;
+   text-indent: 30px;
+text-transform: capitalize;
+   text-shadow: 3px 3px 3px black,4px 4px 2px blue;
+   font-style: italic;
+   padding: 10px;
+font-weight: 700;
+color:rgb(237, 224, 79);
+font-size: 26px;
+columns: 3  200px;
+column-gap: 40px;
+column-rule: 3px solid rgb(5, 113, 5);
+column-fill:auto;
+}
+
+
+
+
